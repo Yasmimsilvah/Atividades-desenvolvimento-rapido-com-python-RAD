@@ -18,3 +18,8 @@ A API recebe dois números e realiza uma operação matemática: soma, subtraç�
  "operacao": "soma", <br>
  "resultado": 15 <br>
 } <br>
+
+## Como executar
+
+```bash
+python -m uvicorn cal:app --reload
